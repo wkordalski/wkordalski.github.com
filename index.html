@@ -1,24 +1,28 @@
 <!doctype html>
 <html>
   <head>
-    <title>Wojciech Kordalski web page</title>
+    <title>My page</title>
+    <link rel="stylesheet" type="text/css" href="main.css" media="screen">
+    <meta charset="utf-8" />
   </head>
   <body>
-    <nav id="topbar">
+    <nav id="menu">
       <ul>
-        <li><a><b>Home</b></a></li>
-        <li><a>Page 1</a></li>
-        <li><a>Page 2</a></li>
+        <li class="active"><a href="#"><b>Home</b></a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
       </ul>
     </nav>
-    <header>
+    <header id="topheader">
+      <h1>Sample header</h1>
     </header>
-    <nav>
+    <nav id="docnavig">
     </nav>
     <section id="content">
-      Here is my GPG key: <a href="/wojciech.kordalski.asc">wojciech.kordalski.asc</a>
+      Here is my GPG key: <a href="/wojciech.kordalski.pgp">wojciech.kordalski.pgp</a>
     </section>
-    <footer>
+    <footer id="botfooter">
+      Copyright (C) Wojciech Kordalski
     </footer>
   </body>
 </html>
